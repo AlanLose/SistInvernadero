@@ -14,3 +14,9 @@ int tGetTemperature(void)
     /* Implemantacion para obtener temperatura del sensor 1*/
     return mValue;
 }
+
+float celsiustoFarenheit(float cTemperature){
+        printf("Changing from Celsius to Farenheit value\n");
+    /* Implemantacion para cambiar la unidades de la temperatura*/
+
+}
