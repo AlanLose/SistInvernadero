@@ -2,7 +2,9 @@
 #include "SensorHumedad1.h"
 #include "Valve1.h"
 
-#define SETPOINT 60u //porcentaje
+#define HHSETPOINT 60u //porcentaje
+#define HLSETPOINT 20U //porcentaje
+
 int main(void)
 {
     int Humidity = 0;
@@ -12,7 +14,7 @@ int main(void)
 
     Humidity = hGetHumidity();
 
-    if(Humidity < SETPOINT)
+    if ( (Humidity >= HLSETPOINT) && (Humidity <= HHSETPOINT) )
     {
         printf("Valve activated....\n");
         valveSet(1);
