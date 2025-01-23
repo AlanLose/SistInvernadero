@@ -5,6 +5,7 @@ int hSensorInit(void)
 {
     printf("Initializing Humidity sensor 1...\n");
     /* Implemantacion para inicializar el sensor 1 de humedad*/
+    /*Fix 1*/
 }
 
 int hGetHumidity(void)
