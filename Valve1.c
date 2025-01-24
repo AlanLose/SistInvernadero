@@ -12,5 +12,8 @@ int valveSet(int value)
 {
     printf("Setting valve to %d\n", value);
     /* Implemantacion para setear el valor de la valvula 1*/
+    /*Linea 1*/
+    /*Linea 1*/
+    /*Linea 1*/
 
 }
