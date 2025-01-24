@@ -20,6 +20,8 @@ int tGetTemperature(void)
     /*Modificacion 1*/
     /*Modificacion 1*/
     /*Modificacion 1*/
+    /*Fix1*/
+    /*Fix1*/
     return mValue;
 }
 
