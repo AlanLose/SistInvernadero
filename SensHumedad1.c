@@ -13,5 +13,7 @@ int hGetHumidity(void)
     int mValue = 10;
     printf("Get Humidity from sensor1 = %d\n", mValue);
     /* Implemantacion para obtener humedad del sensor 1*/
+    /*Fix1*/
+    /*Fix1*/
     return mValue;
 }
