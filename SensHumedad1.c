@@ -15,5 +15,6 @@ int hGetHumidity(void)
     /* Implemantacion para obtener humedad del sensor 1*/
     /*Fix1*/
     /*Fix1*/
+    /*Fix2*/
     return mValue;
 }
