@@ -6,6 +6,8 @@ int tSensorInit(void)
     printf("Initializing Temperature sensor 1...\n");
     /* Implemantacion para inicializar el sensor 1 de temperatura*/
     /*Linea 1*/
+    /*Linea 2*/
+    /*Linea 3*/
 }
 
 int tGetTemperature(void)
